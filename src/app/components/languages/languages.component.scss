@@ -1,0 +1,44 @@
+.description {
+  margin-top: 70px;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.green {
+  color: #1bc362;
+  font-weight: bold;
+}
+
+.language {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #478a63;
+  min-width: 1em;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  vertical-align: middle;
+  padding: 35px;
+  text-shadow: 1px 1px 10px black;
+}
+
+.programming-python {
+  font-size: 32px;
+}
+
+.programming-c {
+  font-size: 50px;
+}
+
+.programming-java {
+  font-size: 25px;
+}
+
+.language:before {
+  content:'';
+  width: auto;
+  padding-bottom: 100%;
+}

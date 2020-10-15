@@ -1,0 +1,29 @@
+div {
+  color: white;
+  font-family: coolvetica;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.header-container {
+  background-image: url("../../../assets/img/face.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.description {
+  font-size: 23px;
+  font-family: Roboto;
+  text-shadow: 1px 1px 10px black;
+}
+
+.name-container {
+  border-bottom: 3px solid #1bc362;
+}

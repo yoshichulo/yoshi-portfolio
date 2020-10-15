@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "yoshi-portfolio"
+    }
+  },
+  "defaultProject": "yoshi-portfolio",
+  "cli": {
+    "analytics": "f8dd3c4e-569c-470f-9462-110c4773c91f"
+  }
 }
