@@ -1,0 +1,36 @@
+h1 {
+  font-family: coolvetica;
+  color: white;
+  font-size: 45px;
+}
+
+pre {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  white-space: pre-wrap;
+  font-family: Roboto;
+}
+
+.h1-container {
+  padding-bottom: 10px;
+  width: 70%;
+  border-bottom: 3px solid #1bc362;
+}
+
+.note {
+  width: 80%;
+  font-size: 18px;
+  color: white;
+  font-family: Roboto;
+}
+
+.note-title {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.note-subtitle {
+  font-style: italic;
+  font-size: 16px;
+}

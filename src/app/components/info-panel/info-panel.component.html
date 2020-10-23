@@ -1,0 +1,32 @@
+<div class="row container-fluid text-center justify-content-center m-0">
+  <div class="h1-container mb-4">
+    <h1>Experiencias</h1>
+  </div>
+  <div class="row container-fluid justify-content-center mx-0">
+    <div class="row note p-3 my-2" *ngFor="let exp of experiences">
+      <div class="col-2">
+        <mat-icon [inline]="true" style="font-size: 55px;">{{ exp.icon }}</mat-icon>
+      </div>
+      <div class="col-10 text-left">
+        <p class="mb-0 note-title">{{ exp.title }}</p>
+        <p class="mb-0 note-subtitle">{{ exp.subtitle }}</p>
+        <pre class="mt-2 mb-0">{{ exp.description }}</pre>
+      </div>
+    </div>
+  </div>
+  <div class="h1-container my-4">
+    <h1>Estudios y certificados</h1>
+  </div>
+  <div class="row container-fluid justify-content-center mx-0">
+    <div class="row note p-3 my-2" *ngFor="let study of studies">
+      <div class="col-2">
+        <mat-icon [inline]="true" style="font-size: 55px;">{{ study.icon }}</mat-icon>
+      </div>
+      <div class="col-10 text-left">
+        <p class="mb-0 note-title">{{ study.title }}</p>
+        <p class="mb-0 note-subtitle">{{ study.subtitle }}</p>
+        <p class="mt-2 mb-0">{{ study.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
