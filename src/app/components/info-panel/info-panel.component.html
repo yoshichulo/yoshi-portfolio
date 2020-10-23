@@ -5,7 +5,7 @@
   <div class="row container-fluid justify-content-center mx-0">
     <div class="row note p-3 my-2" *ngFor="let exp of experiences">
       <div class="col-2">
-        <mat-icon [inline]="true" style="font-size: 55px;">school</mat-icon>
+        <mat-icon [inline]="true" style="font-size: 55px;">{{ exp.icon }}</mat-icon>
       </div>
       <div class="col-10 text-left">
         <p class="mb-0 note-title">{{ exp.title }}</p>
@@ -20,7 +20,7 @@
   <div class="row container-fluid justify-content-center mx-0">
     <div class="row note p-3 my-2" *ngFor="let study of studies">
       <div class="col-2">
-        <mat-icon [inline]="true" style="font-size: 55px;">school</mat-icon>
+        <mat-icon [inline]="true" style="font-size: 55px;">{{ study.icon }}</mat-icon>
       </div>
       <div class="col-10 text-left">
         <p class="mb-0 note-title">{{ study.title }}</p>

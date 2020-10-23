@@ -13,7 +13,7 @@ export class LanguagesComponent implements OnInit {
     'devicon-java-plain', 'devicon-jetbrains-plain', 'devicon-linux-plain',
     'devicon-mysql-plain', 'devicon-nodejs-plain', 'devicon-photoshop-plain',
     'devicon-postgresql-plain-wordmark', 'devicon-angularjs-plain', 'devicon-python-plain',
-    'devicon-trello-plain-wordmark', 'devicon-vuejs-plain-wordmark'
+    'devicon-trello-plain-wordmark', 'devicon-vuejs-plain-wordmark', 'devicon-docker-plain-wordmark',
   ];
 
   constructor() { }
